@@ -1,0 +1,57 @@
+Typically, I (db, GSI) patch DIM when making a new release for the dimWrapper that is
+required for the LabVIEw-DIM interface. This is only required when switching to a new
+DIM version. This document just serves to remind me how to do this. Users might have to
+look into this only in exceptional cases. In case of questions or remarks please
+contact me (d.beck@gsi.de) - thanks.
+
+DIM has to be patched due to the following reasons
+
+a) LabVIEW uses Motorola endian on Intel CPUs
+
+b) When using LabVIEW it is often convenient to subscribe to a service published
+by the same LabVIEw instance. This is undocumented DIM feature that typically works
+provided that the size of the service is smaller than the TCP_RCV_BUF_SIZE.
+Therefore TCP_RCV_BUF_SIZE is increased to 256k.
+
+c) In order to see the patched DIM version the DIM version number is changed to the
+format NNNNMM, where NNNN is the DIM version number and MM is the number of the patch.
+
+d) The use of PHARLAP requires some additional patches.
+
+How to to patch DIM
+
+1) Read the release notes of DIM
+2) Copy the Visual Studio project files to the ".../visual" folder of DIM
+3) Open the copied project file dimStdLabVIEW.vcproj in with Visual Studio.
+4) Open the patched files of the old version in a simple text editor like notepad
+5) Search the patched files for the keywords:
+-- LABVIEWGSI <-- LabVIEW specific
+-- PHARLAP <-- additaion stuff for PharLap (LabVIEW RT)
+-- dietrich <-- probably the easiest key word to search for...
+6) Transfer the patches by copying them to the corresponding files opened with Visual Studio.
+7) Rebuild the shared library with Visual Studio
+
+then
+
+8) Open the copied project file dimStdPharLap.vcproj in with Visual Studio.
+9) Rebuild the shared library with Visual Studio
+
+then
+
+10) Copy the changed source and header files from the Windows machine to Linux.
+11) Re-make the shared library for Linux (hm..., I added "#define LABVIEWGSI" to dim.h).
+
+then
+12) Copy the shared library files created to the ../../bin folder (relative to the
+DimWrapper folder).
+13) It might be a good idea to recompile the DimWrapper stuff be sure about
+correct version numbers and so on...
+14) check that everything works...
+
+and finally
+15) Copy the patched files of the new DIM version back to THIS folder so that they
+can serve as a starting point for the next patching procedure (or can be used directly
+when patching the same version of DIM again.)
+
+
+
