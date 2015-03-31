@@ -144,15 +144,13 @@ INFO2SF</Property>
 	</Item>
 	<Item Name="supportFiles" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="libDimWrapper.dll" Type="Document" URL="../../../../../../C/GPL/Projects/DimLVEvent/bin/libDimWrapper.dll"/>
-		<Item Name="myDimStd.dll" Type="Document" URL="../../../../../../C/GPL/Projects/DimLVEvent/bin/myDimStd.dll"/>
-		<Item Name="msvcr70.dll" Type="Document" URL="../../../../../../C/GPL/Projects/DimLVEvent/bin/msvcr70.dll"/>
-		<Item Name="msvcr70d.dll" Type="Document" URL="../../../../../../C/GPL/Projects/DimLVEvent/bin/msvcr70d.dll"/>
-		<Item Name="libmydim.so" Type="Document" URL="../../../../../../C/GPL/Projects/DimLVEvent/bin/libmydim.so"/>
-		<Item Name="libDimWrapper.so" Type="Document" URL="../../../../../../C/GPL/Projects/DimLVEvent/bin/libDimWrapper.so"/>
-		<Item Name="libDimWrapperSPL.dll" Type="Document" URL="../../../../../../C/GPL/Projects/DimLVEvent/bin/libDimWrapperSPL.dll"/>
-		<Item Name="myDimSPL.dll" Type="Document" URL="../../../../../../C/GPL/Projects/DimLVEvent/bin/myDimSPL.dll"/>
 		<Item Name="performance_DIM_LV2009.xls" Type="Document" URL="../../performance_DIM_LV2009.xls"/>
+		<Item Name="libDimWrapper.dll" Type="Document" URL="../../bin/libDimWrapper.dll"/>
+		<Item Name="myDimStd.dll" Type="Document" URL="../../bin/myDimStd.dll"/>
+		<Item Name="libDimWrapperSPL.dll" Type="Document" URL="../../bin/libDimWrapperSPL.dll"/>
+		<Item Name="msvcp100.dll" Type="Document" URL="../../bin/msvcp100.dll"/>
+		<Item Name="msvcr100.dll" Type="Document" URL="../../bin/msvcr100.dll"/>
+		<Item Name="myDimSPL.dll" Type="Document" URL="../../bin/myDimSPL.dll"/>
 	</Item>
 	<Item Name="LVDimInterface.VI-Tree.vi" Type="VI" URL="../LVDimInterface.VI-Tree.vi"/>
 </Library>
