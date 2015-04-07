@@ -1,0 +1,15 @@
+@usage: gmake all
+LIBDIR  = lynxos86x
+ODIR    = lynx86x
+DIMDIR  = ../dim
+INCLUDE = -I. -I$(DIMDIR)/dim
+#LIBS	= -L$(DIMDIR)/$(ODIR) -ldim -lpthread
+LIBS	= -L$(DIMDIR)/$(LIBDIR) -ldim -lbsd
+CFLAGS  = -mthreads -DLynx
+
+all: nodemon
+
+nodemon: NodeMon.c GetLynxInfo.c GetNodeInfo.h
+	 @echo Making target nodemon
+#	 g++ -g $(INCLUDE) -o nodemon NodeMon.c GetLinuxInfo.c $(LIBS)
+	 gcc -g $(INCLUDE) -o $(ODIR)/NodeMon NodeMon.c GetLynxInfo.c $(LIBS) $(CFLAGS)

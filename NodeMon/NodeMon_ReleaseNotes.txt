@@ -1,0 +1,45 @@
+Release Notes for NodeMon - 30-Oct-2008
+=======================================
+This package provides a monitoring tool for tasks on computing nodes.
+
+Two things are provided
+- libNodeInfo: library providing inforatation about local tasks
+- NodeMon    : executable publishing information of tasks via DIM
+
+Version 1.00
+============
+- Windows only: "NodeMon.exe" hides from the desktop as well as the taskbar
+
+Version 0.01
+============
+
+Dependencies
+============
+libNodeInfo:
+------------
+- none
+
+NodeMon:
+-----------
+- Requires DIM V1711 (www.cern.ch/dim)
+
+Sources
+=======
+All files are contained in a zip file.
+
+Binaries are located in the folder
+NodeMon\C\GPL\Projects\NodeMon\bin (libNodeInfo)
+NodeMon\DomainManagementSystem     (NodeMon)
+
+Sources are located in the folder
+NodeMon\C\GPL\Projects\NodeMon
+
+
+As an alternative, sources can be found at 
+https://svn.sourceforge.net/svnroot/cs-framework
+using the tag "16-MAR-2006_a". Here, the sources can be obtained using 
+a Subversion client. The recommended Subversion client for Windows is 
+TortoiseSVN, http://tortoisesvn.tigris.org/.
+
+
+

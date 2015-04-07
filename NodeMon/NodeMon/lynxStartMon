@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+ echo starting procs script
+ lynxProcsInfo &
+ echo starting NodeMon
+ NodeMon > /dev/null &
+
+

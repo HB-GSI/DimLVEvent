@@ -1,0 +1,12 @@
+pid ppid pgrp pri text   stk data      time flags    user   S name
+  0    0    0   0    0     0    0  37:26:38 00000000 root   R nullpr
+  1    1    1  16   20     8    4      0.08 00002020 root   W /init
+ 10    1   10  17   40    24   56   3:02:48 00002000 root   W /bin.boot/unfsio
+ 18    1   18  17  340    12   60      0.44 00002020 beck   W /bin/bash
+ 22    1   22  17   56     8   24      0.10 00002000 root   W /net/inetd
+ 26    1   26  17   28     8   16      0.03 00002020 root   W /bin/login
+ 27    1   27  17   28*    8   16      0.01 00002020 root   W /bin/login
+ 34   18   18  17   40    12   24      0.42 00002020 beck   C /bin/ps
+ 39    1   39  17   44     8   24      0.07 00002000 root   W /net/portmap
+ 41    1   41  17    8     8   12      0.01 00002000 root   W ./adjt_68K
+11444K/0K free physical/virtual, 908K used (in this display)

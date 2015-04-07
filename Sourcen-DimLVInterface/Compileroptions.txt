@@ -1,0 +1,14 @@
+Use in the \Visual folder of DIM dimStdLabVIEW.vcproj and dimStdPharLab.vcproj to compile the modified DIM dlls
+
+Compile in Release and Win32 mode
+
+in C/C++ -> Prep: Definitions need to include LABVIEWGSI and NDEBUG
+in C/C++ -> Code: /MD
+in C/C++ -> Advanced: __stdcall
+
+Copy the DimWrapper stuff to a subfolde in \Visual and open DimWrapper.vcproj with the same options as above and:
+
+in C/C++ -> Common: IncludeFolders: D:\Dim\dim and C:\Program Files\...\LabVIEW XXX\cintools
+in Linker -> Common: Additional library folders: D:\Dim\bin and C:\Program Files\...\LabVIEW XXX\cintools
+(note that the in the first step generated dlls have to be in ...\dim\bin !)
+in Input -> Additional Dependencies: myDimStd.lib (created in step 1) and labview.lib

@@ -1,0 +1,18 @@
+In order to Build the application:
+	NodeMon
+
+Please use the project files in the folder "visual".
+
+
+
+NOTE:
+The current executable is already in the "bin" directory
+and has been built with Windows XP.
+
+For running the application you must set the environment
+variables 
+- DIM_DNS_NODE:  node on which dim name server is running
+- path: path must include the binary as well as dim.dll.
+
+
+

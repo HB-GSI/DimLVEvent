@@ -1,0 +1,61 @@
+In order to Build the application:
+	NodeMon
+
+The following environment variable has to be set up:
+
+  DIMDIR   must be set in "MakeFile_lynxXXY",
+
+where XXY corresponds to 86x or 68m for the different 
+architectures. "DIMDIR" is the main directory of the 
+DIM installation. Copy the scripts "lynxProcsInfo" and
+"lynxStartMon" to the lynxXXY directory.
+
+For downloading and installing DIM, see www.cern.ch/dim.
+
+Then do:
+
+  make -f Makefile_lynxXXY all
+
+NOTE 1:
+The current executable for LynxOS is already in the "lynxXXY"
+(XXY = 86x or 68m for the different architectures) directory.
+NodeMon has been built using LynxOS 2.5.
+The application must be started together with the shell script
+"lynxProcsInfo". You may use the script "lynxStartMon" to start
+"lynxProcsInfo" and NodeMon at the same time. For running
+the application you must set the environment variable
+- DIM_DNS_NODE:  node on which dim name server is running
+
+NOTE 2:
+For building DIM@GSI, the following procedure was followed.
+- download DIM for unix on a linux machine
+- unzip -a dim.zip (-a is very important) on a linux machine
+- tar -cf dim.tar dim/ on a linux machine
+- on LynxOS do the following
+- get dim.tar via ftp
+- tar -xf dim.tar
+- us tcsh for the following
+- cd dim (go to the dim directory)
+- setenv OS LynxOS
+- (for x86 platform only: setenv ARCH INTEL)
+- source .setup
+- edit the "makefile" and replace "gmake" by "make"
+- then: "make CC=gcc THREADS=no SHAREABLE=no CPP=no all"
+- this will build dim into the directory "lynxos".
+- for different architectures it is recommended to move
+  the binaries to folders like "lynxos86x" (for intel) or
+  "lynxos68m" (for motorola).
+(in principle it would be desirable to build dim multi-
+ threaded (option: THREADS=yes). However, I did not manage
+ to do this with LynxOS @ GSI.)
+
+
+
+
+
+
+
+
+
+
+

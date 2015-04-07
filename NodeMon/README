@@ -1,0 +1,24 @@
+NodeMon
+
+Version 0.0, 20-OCT-2004
+
+License:
+NodeMon has been developed by Dietrich Beck, copyright GSI, Darmstadt.
+NodeMon is distributed under GPL. See license.txt. Parts have the code have been
+reused from "pcmon", by Clara Gaspar, copyright CERN, GPL.
+
+Note: 
+
+Information for usage and building of binaries on the different OSes have a 
+look at READ_XXXX, where XXXX denotes the OS. Currently, the following oSes
+are supported:
+- Windows
+- Linux
+- LynxOS
+
+For running NodeMon you need dim. Dim is availabel under GPL and copyright
+of CERN via www.cern.ch/dim.
+
+
+
+

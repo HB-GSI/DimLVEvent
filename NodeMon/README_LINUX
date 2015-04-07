@@ -1,0 +1,25 @@
+In order to Build the application:
+	NodeMon
+
+The following environment variable has to be set up:
+
+  DIMDIR   must be set in "MakeFile"
+
+"DIMDIR" is the main directory of the DIM installation.
+For downloading and installing DIM, see www.cern.ch/dim.
+
+Then do:
+
+  make -f Makefile all
+
+NOTE:
+The current executable is already in the "linux" directory
+and has been built with Debian-linux 2.4.26.
+
+For running the application you must set the environment
+variables 
+- DIM_DNS_NODE:  node on which dim name server is running
+- LD_LIBRARY_PATH: path to the libdim.so of the DIM installation
+
+
+
