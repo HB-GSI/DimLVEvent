@@ -71,7 +71,7 @@ INFO2SF</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="CSSystemLib.lvlib" Type="Friended Library" URL="../../../../Projects/cs-framework/CSClass/CSCore/CSSystem/CSSystemLib/CSSystemLib.lvlib"/>
+		<Item Name="CSSystemLib.lvlib" Type="Friended Library" URL="../../../../CSClass/CSCore/CSSystem/CSSystemLib/CSSystemLib.lvlib"/>
 	</Item>
 	<Item Name="typedefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -146,10 +146,11 @@ INFO2SF</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="performance_DIM_LV2009.xls" Type="Document" URL="../../performance_DIM_LV2009.xls"/>
 		<Item Name="libDimWrapper.dll" Type="Document" URL="../../bin/libDimWrapper.dll"/>
-		<Item Name="myDimStd.dll" Type="Document" URL="../../bin/myDimStd.dll"/>
 		<Item Name="libDimWrapperSPL.dll" Type="Document" URL="../../bin/libDimWrapperSPL.dll"/>
+		<Item Name="libDimWrapper.so" Type="Document" URL="../../bin/libDimWrapper.so"/>
 		<Item Name="msvcp100.dll" Type="Document" URL="../../bin/msvcp100.dll"/>
 		<Item Name="msvcr100.dll" Type="Document" URL="../../bin/msvcr100.dll"/>
+		<Item Name="myDimStd.dll" Type="Document" URL="../../bin/myDimStd.dll"/>
 		<Item Name="myDimSPL.dll" Type="Document" URL="../../bin/myDimSPL.dll"/>
 	</Item>
 	<Item Name="LVDimInterface.VI-Tree.vi" Type="VI" URL="../LVDimInterface.VI-Tree.vi"/>
