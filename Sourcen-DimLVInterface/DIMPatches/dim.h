@@ -13,7 +13,7 @@
 
 #include "dim_common.h"
 
-#define DIM_VERSION_NUMBER 201303
+#define DIM_VERSION_NUMBER 201503
 
 #ifdef LABVIEWGSI
 //this is a hack, but we have to overcome the problem that LabVIEW uses Motorola endian on an Intel machine
@@ -174,9 +174,9 @@ _DIM_PROTO( short _swaps,   (short s) );
 #else
 #define TCP_RCV_BUF_SIZE	/*16384*//*32768*/65536
 #endif
+
 #define TCP_SND_BUF_SIZE	/*16384*//*32768*/65536
 #endif
-
 #define DID_DNS_TMOUT_MIN	5
 #define DID_DNS_TMOUT_MAX	10
 /*

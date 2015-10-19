@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="15008000">
+<Library LVVersion="14008000">
 	<Property Name="Alarm Database Computer" Type="Str">localhost</Property>
 	<Property Name="Alarm Database Name" Type="Str">E__Program_Files_National_Instruments_LabVIEW_8_2_data</Property>
 	<Property Name="Alarm Database Path" Type="Str">E:\Program Files\National Instruments\LabVIEW 8.2\data</Property>
@@ -63,15 +63,15 @@ Last update: 28-Jan-2008
 INFO2SF</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">0255c025-c2a7-4700-a839-9a16902e87cd</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*X!!!*Q(C=\:9R&lt;BMR%%7`!R&gt;RK2M%+H+!4/6_6&lt;D0FCE^6V#\J3\A9A!BH1*%:6L6-7"ALK!L[!L+7SZ8E:V!3A!&amp;="(3M[4_E$.P33ZBK:3XUL8WZYJ/&amp;PS-["`\M&gt;89^J/0`!&gt;.9\P8LX\^P@`1?Z&amp;`6-`Q``&gt;@UL^]XH`O8`\7P[25ZV*$&gt;XC-`K.[X/C&amp;8S@^*?B2^W@]C\\`K`/@`\S\MY0_=:'O6'_,R!*TT):P/N%40&gt;%40&gt;%40&gt;!$0&gt;!$0&gt;!$X&gt;%&gt;X&gt;%&gt;X&gt;%&gt;X&gt;!.X&gt;!.X&gt;"NP#P1B3ZU7&lt;F$EO2*IC2I%C!:$)K32]+4]#1]#1]`F@!E0!F0QJ0Q-%1*4]+4]#1]#1`4F0!E0!F0QJ0Q%+K1:+HI]#1]B&amp;@!%`!%0!&amp;0Q%.+"4Q"1*!M#"Q%!5/"-_A%0!&amp;0Q%.8!5`!%`!%0!%0&lt;A5]!5`!%`!%0%QJKR+&amp;JK`I]""'$I`$Y`!Y0!Y0I?8Q/$Q/D]0D]*"/$I`$YU!Y#:XA)-C:Z!RQ@DA]$A_.("[(R_&amp;R?"Q?8'7(P+R-4^.8&gt;(A-(I0(Y$&amp;Y$"Z#S/!R?!Q?A]@A);Q-(I0(Y$&amp;Y$"Z3S?!R?!Q?!]2)3HI:Q9S*RC"$-(DY+[@&amp;SCZ&amp;)&lt;&amp;3[[=Z(&amp;46![B[M&amp;10D/J"5.VAV9V4X2$6B6:&gt;1.7&amp;58VBV2&gt;2"62.L"J1&gt;;"W0,@9"FND#WS/N6C$4&lt;&amp;*0`8#!X?\H&lt;&lt;&lt;L4;&lt;D&gt;&lt;LN2;,B?&lt;TO&gt;KW6&gt;-UGE[HGEQGB^PK(85I6_/^V.&amp;@X=]_L&gt;LP4[NW6OT&lt;`?SOV``=OJPOOLPZ`0\R^O(DV\O("PPQZ@&lt;5H/&amp;??AVXI^\5`ZI/;`1$T).I/!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*X!!!*Q(C=\:9R&lt;BMR%%7`!R&gt;RK2M%+H+!4/6_6&lt;D0FCE^6V#\J3\A9A!BH1*%:6L6-7"ALK!L[!L+7SZ8E:V!3A!&amp;="(3M[4_E$.P33ZBK:3XUL8WZYJ/&amp;PS-["`\M&gt;89^J/0`!&gt;.9\P8LX\^P@`1?Z&amp;`6-`Q``&gt;@UL^]XH`O8`\7P[25ZV*$&gt;XC-`K.[X/C&amp;8S@^*?B2^W@]C\\`K`/@`\S\MY0_=:'O6'_,R!*TT):P/N%40&gt;%40&gt;%40&gt;!$0&gt;!$0&gt;!$X&gt;%&gt;X&gt;%&gt;X&gt;%&gt;X&gt;!.X&gt;!.X&gt;"NP#P1B3ZU7&lt;F$EO2*IC2I%C!:$)K32]+4]#1]#1]`F@!E0!F0QJ0Q-%1*4]+4]#1]#1`4F0!E0!F0QJ0Q%+K1:+HI]#1]B&amp;@!%`!%0!&amp;0Q%.+"4Q"1*!M#"Q%!5/"-_A%0!&amp;0Q%.8!5`!%`!%0!%0&lt;A5]!5`!%`!%0%QJKR+&amp;JK`I]""'$I`$Y`!Y0!Y0I?8Q/$Q/D]0D]*"/$I`$YU!Y#:XA)-C:Z!RQ@DA]$A_.("[(R_&amp;R?"Q?8'7(P+R-4^.8&gt;(A-(I0(Y$&amp;Y$"Z#S/!R?!Q?A]@A);Q-(I0(Y$&amp;Y$"Z3S?!R?!Q?!]2)3HI:Q9S*RC"$-(DY+[@&amp;SCZ&amp;)&lt;&amp;3[[=Z(&amp;46![B[M&amp;10D/J"5.VAV9V4X2$6B6:&gt;1.7&amp;58VBV2&gt;2"62.L"J1&gt;;"W0,@9"FND#WS/N6C$4&lt;&amp;*0`8#!X?\H&lt;&lt;&lt;L4;&lt;D&gt;&lt;LN2;,B?&lt;TO&gt;KW6&gt;-UGE[HGEQGB^PK(85I6_/^V.&amp;@X=]_L&gt;LP4[NW6OT&lt;`?SOV``=OJPOOLPZ`0\R^O(DV\O("PPQZ@&lt;5H/&amp;??AVXI^\5`ZI/;`1$T).I/!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.17.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
-	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
+	<Property Name="Serialized ACL" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="CSSystemLib.lvlib" Type="Friended Library" URL="../../../../CSClass/CSCore/CSSystem/CSSystemLib/CSSystemLib.lvlib"/>
+		<Item Name="CSSystemLib.lvlib" Type="Friended Library" URL="/Projects/cs-framework/CSClass/CSCore/CSSystem/CSSystemLib/CSSystemLib.lvlib"/>
 	</Item>
 	<Item Name="typedefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -145,13 +145,14 @@ INFO2SF</Property>
 	<Item Name="supportFiles" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="performance_DIM_LV2009.xls" Type="Document" URL="../../performance_DIM_LV2009.xls"/>
+		<Item Name="libmydim.so" Type="Document" URL="../../bin/libmydim.so"/>
+		<Item Name="msvcp100.dll" Type="Document" URL="../../bin/msvcp100.dll"/>
+		<Item Name="msvcr100.dll" Type="Document" URL="../../bin/msvcr100.dll"/>
+		<Item Name="myDimSPL.dll" Type="Document" URL="../../bin/myDimSPL.dll"/>
+		<Item Name="myDimStd.dll" Type="Document" URL="../../bin/myDimStd.dll"/>
 		<Item Name="libDimWrapper.dll" Type="Document" URL="../../bin/libDimWrapper.dll"/>
 		<Item Name="libDimWrapperSPL.dll" Type="Document" URL="../../bin/libDimWrapperSPL.dll"/>
 		<Item Name="libDimWrapper.so" Type="Document" URL="../../bin/libDimWrapper.so"/>
-		<Item Name="msvcp100.dll" Type="Document" URL="../../bin/msvcp100.dll"/>
-		<Item Name="msvcr100.dll" Type="Document" URL="../../bin/msvcr100.dll"/>
-		<Item Name="myDimStd.dll" Type="Document" URL="../../bin/myDimStd.dll"/>
-		<Item Name="myDimSPL.dll" Type="Document" URL="../../bin/myDimSPL.dll"/>
 	</Item>
 	<Item Name="LVDimInterface.VI-Tree.vi" Type="VI" URL="../LVDimInterface.VI-Tree.vi"/>
 </Library>
