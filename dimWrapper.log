@@ -1,3 +1,13 @@
 Mon Oct 19 13:44:00, PID 4264, server KSTest_ManagementServer:  DIM server starting. 
 Mon Oct 19 13:45:04, PID 4264, server KSTest_ManagementServer:  DIM server stopping. 
 Mon Oct 19 13:45:27, PID 4264, server KSTest_ManagementServer:  DimWrapper library deinitialized
+Mon Aug 15 12:30:30, PID 8156: DIMWrapper: occurrence enabled, using callback via occurrence.
+Mon Aug 15 12:30:50, PID 8156, server test28:  DIM server starting. 
+Mon Aug 15 12:30:50, PID 8156, server :  DIM server: error_user_routine - severity (0 - info, 1 - warning, 2 - error, 3 - fatal): 3, error_code 1, DIM_DNS_NODE undefined
+Mon Aug 15 12:30:50, PID 8156, server :  Dim: received exit command -1
+Mon Aug 15 12:31:06, PID 8156, server :  Dim client: error_user_routine - severity (0 - info, 1 - warning, 2 - error, 3 - fatal): 3, error_code 1, DIM_DNS_NODE undefined
+Mon Aug 15 12:33:15, PID 8156, server test28:  DIM server stopping. 
+Mon Aug 15 12:33:17, PID 8156, server :  DIM server: error_user_routine - severity (0 - info, 1 - warning, 2 - error, 3 - fatal): 3, error_code 1, DIM_DNS_NODE undefined
+Mon Aug 15 12:33:17, PID 8156, server :  Dim: received exit command -1
+Mon Aug 15 12:33:48, PID 8156, server test28:  DIM server stopping. 
+Mon Aug 15 12:34:16, PID 8156, server :  DimWrapper library deinitialized
