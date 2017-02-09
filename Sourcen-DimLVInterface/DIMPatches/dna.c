@@ -15,7 +15,7 @@
 #define DIMLIB
 #define DNA
 #include <dim.h>
-//LABVIEW GSI: For whatever reason I have to add the next line
+//LABVIEWGSI: For whatever reason I have to add the next line
 #include <time.h>
 
 /* global definitions */
@@ -625,7 +625,7 @@ static int ins_pend_conn( char *node, char *task, int port, SRC_TYPES src_type, 
 	register int i, size;
 	time_t oldest;
 	int oldesti = 0;
-	// LabVIEW GSI: for whatever reason I have to skip the next line
+	// LabVIEWGSI: for whatever reason I have to skip the next line
 	//extern time_t time();
 
 	if(type == 0)
