@@ -45,8 +45,7 @@
 #include <ctype.h>
 #include <stdlib.h>
 
-//include my stuff#
-//extern int _imp_dis_remove_service_(unsigned);
+//include my stuff
 #include <dis.h>
 #include "GetNodeInfo.h"
 
