@@ -53,5 +53,7 @@ and finally
 can serve as a starting point for the next patching procedure (or can be used directly
 when patching the same version of DIM again.)
 
+REMARK:
+It seems to be much better to use the dimVS10.sln file from the Visual folder of DIM as a starting point!!
 
 

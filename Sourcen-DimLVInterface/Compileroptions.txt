@@ -1,4 +1,4 @@
-Use in the \Visual folder of DIM dimStdLabVIEW.vcproj and dimStdPharLab.vcproj to compile the modified DIM dlls
+Use in the \Visual folder of DIM dimVS10.sln and dimStd to compile the modified DIM dlls
 
 Compile in Release and Win32 mode
 
@@ -12,3 +12,11 @@ in C/C++ -> Common: IncludeFolders: D:\Dim\dim and C:\Program Files\...\LabVIEW 
 in Linker -> Common: Additional library folders: D:\Dim\bin and C:\Program Files\...\LabVIEW XXX\cintools
 (note that the in the first step generated dlls have to be in ...\dim\bin32 !)
 in Input -> Additional Dependencies: DimStd.lib (created in step 1) and labview.lib
+
+
+
+
+
+
+Note that PHARLAPS is not anymore included in this library!!!!
+Contact me, if you need it.

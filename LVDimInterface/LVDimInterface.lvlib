@@ -144,15 +144,14 @@ INFO2SF</Property>
 	</Item>
 	<Item Name="supportFiles" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="performance_DIM_LV2009.xls" Type="Document" URL="../../performance_DIM_LV2009.xls"/>
-		<Item Name="libmydim.so" Type="Document" URL="../../bin/libmydim.so"/>
+		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="DimStd.dll" Type="Document" URL="../../bin/DimStd.dll"/>
+		<Item Name="libDimWrapper.dll" Type="Document" URL="../../bin/libDimWrapper.dll"/>
+		<Item Name="libDimWrapper.so" Type="Document" URL="../../bin/libDimWrapper.so"/>
+		<Item Name="libDimWrapperSPL.dll" Type="Document" URL="../../bin/libDimWrapperSPL.dll"/>
 		<Item Name="msvcp100.dll" Type="Document" URL="../../bin/msvcp100.dll"/>
 		<Item Name="msvcr100.dll" Type="Document" URL="../../bin/msvcr100.dll"/>
-		<Item Name="myDimSPL.dll" Type="Document" URL="../../bin/myDimSPL.dll"/>
-		<Item Name="myDimStd.dll" Type="Document" URL="../../bin/myDimStd.dll"/>
-		<Item Name="libDimWrapper.dll" Type="Document" URL="../../bin/libDimWrapper.dll"/>
-		<Item Name="libDimWrapperSPL.dll" Type="Document" URL="../../bin/libDimWrapperSPL.dll"/>
-		<Item Name="libDimWrapper.so" Type="Document" URL="../../bin/libDimWrapper.so"/>
+		<Item Name="performance_DIM_LV2009.xls" Type="Document" URL="../../performance_DIM_LV2009.xls"/>
 	</Item>
 	<Item Name="LVDimInterface.VI-Tree.vi" Type="VI" URL="../LVDimInterface.VI-Tree.vi"/>
 </Library>
